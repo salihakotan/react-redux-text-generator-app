@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(118, 0, 120);
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.generateBtn {
+  background-color: rgb(237, 157, 255);
+  color: rgb(36, 36, 36);
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  border: 2px solid white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.generateBtn:hover {
+  background-color:  #f7d1ff;
+}
+
+input, select {
+  padding: 5px;
+  margin: 10px;
 }
